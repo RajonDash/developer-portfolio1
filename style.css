@@ -1,11 +1,14 @@
 body{
-    font-family: 'Play', sans-serif;;
+    font-family: 'Play', sans-serif;
+    margin: 0;
+    background-color: rgb(62, 9, 110);
 }
 .half-width h1{
     font-size: 50px;
 }
 section{
     display: flex;
+    margin-top: 5%;
 }
 .half-width{
     width: 50%;
@@ -15,7 +18,7 @@ section{
 }
 .half-width{
     padding: 10px;
-    margin: 5px 30px;
+    margin-left: 2%;
 }
 
 .name{
@@ -24,7 +27,16 @@ section{
 .encor{
     text-decoration: none;
     color: wheat;
-    padding: 10px;;
+    padding: 10px 40px;
     border-radius: 3px;
     background-image: linear-gradient(45deg,red, yellow);
+}
+.top-bener{
+    
+}
+p{
+    text-align: justify;
+}
+.bottom-bener{
+    margin-top: 5%;
 }
