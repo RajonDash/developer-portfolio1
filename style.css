@@ -1,0 +1,30 @@
+body{
+    font-family: 'Play', sans-serif;;
+}
+.half-width h1{
+    font-size: 50px;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 100%;
+}
+.half-width{
+    padding: 10px;
+    margin: 5px 30px;
+}
+
+.name{
+    color: rgb(219, 135, 9);
+}
+.encor{
+    text-decoration: none;
+    color: wheat;
+    padding: 10px;;
+    border-radius: 3px;
+    background-image: linear-gradient(45deg,red, yellow);
+}
