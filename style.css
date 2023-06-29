@@ -1,12 +1,12 @@
 body{
     font-family: 'Play', sans-serif;
     margin: 0;
-    background-color: rgb(62, 9, 110);
+   
 }
 .half-width h1{
     font-size: 50px;
 }
-section{
+.flexsection{
     display: flex;
     margin-top: 5%;
 }
@@ -39,4 +39,22 @@ p{
 }
 .bottom-bener{
     margin-top: 5%;
+}
+.experience{
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-bottom:5% ;
+}
+.experience-card{
+    display: flex;
+}
+
+.experience-item{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 8px;
+    border-left:5px solid rgba(255, 217, 0, 0.849);
 }
